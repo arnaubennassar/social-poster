@@ -1,6 +1,6 @@
 Twitter: done
 Telegram: done
-Facebook: API
+Facebook: done
 Whatsapp: unnoficial APIs / Whatsapp buisnes
 weTransfer: API
 Messenger: API / Bots
