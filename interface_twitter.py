@@ -10,14 +10,10 @@ api = twitter.Api(
 #	input_encoding=encoding
 )
 def twitVideo (path, message):
-	err = False
 	try:
 	    status = api.PostUpdate(message, media=path)
-	except (UnicodeDecodeError, twitter.error.TwitterError) as e:
-		err = True
-		ret = dict(success=False, message=e)
-	if err:
-		return ret
+	except Exception as e:
+		return dict(success=False, message=e)
 	return dict(success=True, message="%s just posted: %s" % (status.user.name, status.text))
 
 

@@ -2,7 +2,7 @@ Twitter: done
 Telegram: done
 Facebook: done
 Whatsapp: unnoficial APIs / Whatsapp buisnes
-weTransfer: API
+weTransfer: http
 Messenger: API / Bots
 ?
 Vine

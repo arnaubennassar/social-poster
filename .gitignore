@@ -1,2 +1,7 @@
 env.py
+license.txt
+list.txt
+Certificates.pem
+client_id.json
+client_secret.json
 *.pyc
